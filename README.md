@@ -1,8 +1,4 @@
-# local-storage
-Types of local storage for mobile app
+A simple command-line application.
 
-1. Shared Preferences
-2. Local DB
-3. Using local Files
-
-This project explains the working concept of local storages using dart language. 
+Created from templates made available by Stagehand under a BSD-style
+[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).

@@ -19,22 +19,6 @@ class DashboardScreen extends StatelessWidget {
                       Navigator.of(context).pushNamed(RouteList.sharedPref),
                 ),
               ),
-              ListTile(
-                title: const Text('local files'),
-                trailing: IconButton(
-                  icon: const Icon(Icons.arrow_forward),
-                  onPressed: () =>
-                      Navigator.of(context).pushNamed(RouteList.localFiles),
-                ),
-              ),
-              ListTile(
-                title: const Text('Local database'),
-                trailing: IconButton(
-                  icon: const Icon(Icons.arrow_forward),
-                  onPressed: () =>
-                      Navigator.of(context).pushNamed(RouteList.localDb),
-                ),
-              ),
             ],
           ),
         ),
